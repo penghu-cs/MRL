@@ -727,3 +727,7 @@
   </tr>
 </tbody>
 </table>
+
+```math
+a^2+b^2=c^2
+```
