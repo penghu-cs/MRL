@@ -673,14 +673,14 @@
     <td class="tg-0lax">0.178</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with $\mathcal{L}_{r}$ only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub>r</sub> only)</td>
     <td class="tg-0lax">0.482</td>
     <td class="tg-0lax">0.434</td>
     <td class="tg-0lax">0.363</td>
     <td class="tg-0lax">0.239</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with $\mathcal{L}_{c}$ only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub>c</sub> only)</td>
     <td class="tg-0lax">0.412</td>
     <td class="tg-0lax">0.412</td>
     <td class="tg-0lax">0.412</td>
@@ -712,7 +712,7 @@
     <td class="tg-0lax">0.202</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with $\mathcal{L}_{c}$ only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub>c</sub> only)</td>
     <td class="tg-0lax">0.383</td>
     <td class="tg-0lax">0.382</td>
     <td class="tg-0lax">0.383</td>
