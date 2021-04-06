@@ -1,9 +1,12 @@
 # Framework
 
 ![MRL](MRL_Framework.jpg)
+<h3>The pipeline of the proposed method for $m$ modalities, \eg, images $\mathcal{X}_{1}$ with noisy labels $\mathcal{Y}_{1}$, and texts $\mathcal{X}_{m}$ with noisy labels $\mathcal{Y}_{m}$. The modality-specific networks learn common representations for $m$ different modalities. The Robust Clustering loss $\mathcal{L}_{r}$ is adopted to mitigate the noise in labels for learning discrimination and narrow the heterogeneous gap. The outputs of networks interact with each other to learn common representations by using instance- and pair-level contrast, \ie, multimodal contrastive learning~($\mathcal{L}_{c}$), thus further mitigating noisy labels and cross-modal discrepancy. $\mathcal{L}_{c}$ tries to maximally scatter inter-modal samples while compacting intra-modal points over the common unit sphere/space.</h3>
 
 
 # MRL
+
+## Comparison with the State-of-the-Art
 <table>
 <thead>
   <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b>.</h3>
@@ -649,7 +652,7 @@
 </tbody>
 </table>
 
-### Ablation Study
+## Ablation Study
 <table class="tg", align="center">
 <thead>
   <h3>Comparison between our MRL (full version) and its three counterparts (CE and two variations of MRL) under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia dataset. The highest score is shown in <b>bold</b>.</h3>
