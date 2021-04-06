@@ -1,7 +1,7 @@
 # Framework
 
 ![MRL](MRL_Framework.jpg)
-<h4>Figure 1 The pipeline of the proposed method for 𝓂 modalities, <i>e.g.</i>, images 𝒳₁ with noisy labels 𝒴₁, and texts 𝒳<sub>𝓂</sub> with noisy labels 𝒴<sub>𝓂</sub>. The modality-specific networks learn common representations for 𝓂 different modalities. The Robust Clustering loss $\mathcal{L}_{r}$ is adopted to mitigate the noise in labels for learning discrimination and narrow the heterogeneous gap. The outputs of networks interact with each other to learn common representations by using instance- and pair-level contrast, <i>i.e.</i>, multimodal contrastive learning (&Lscr;<sub>𝒸</sub>), thus further mitigating noisy labels and cross-modal discrepancy. &Lscr;<sub>𝒸</sub> tries to maximally scatter inter-modal samples while compacting intra-modal points over the common unit sphere/space.</h4>
+<h4>Figure 1 The pipeline of the proposed method for 𝓂 modalities, <i>e.g.</i>, images 𝒳₁ with noisy labels 𝒴₁, and texts 𝒳<sub>𝓂</sub> with noisy labels 𝒴<sub>𝓂</sub>. The modality-specific networks learn common representations for 𝓂 different modalities. The Robust Clustering loss &Lscr;<sub>𝓇</sub> is adopted to mitigate the noise in labels for learning discrimination and narrow the heterogeneous gap. The outputs of networks interact with each other to learn common representations by using instance- and pair-level contrast, <i>i.e.</i>, multimodal contrastive learning (&Lscr;<sub>𝒸</sub>), thus further mitigating noisy labels and cross-modal discrepancy. &Lscr;<sub>𝒸</sub> tries to maximally scatter inter-modal samples while compacting intra-modal points over the common unit sphere/space.</h4>
 
 
 # MRL
