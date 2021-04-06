@@ -655,7 +655,7 @@
   <h3>Comparison between our MRL (full version) and its three counterparts (CE and two variations of MRL) under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia dataset. The highest score is shown in <b>bold</b>.</h3>
   <tr>
     <th class="tg-0lax" rowspan="2">Method</th>
-    <th class="tg-baqh" colspan="4">Image → Text</th>
+    <th class="tg-baqh" colspan="4", align="center">Image → Text</th>
   </tr>
   <tr>
     <td class="tg-0lax">0.2</td>
@@ -695,7 +695,7 @@
   </tr>
   <tr>
     <td class="tg-0lax"></td>
-    <td class="tg-baqh" colspan="4">Text → Image</td>
+    <td class="tg-baqh" colspan="4", align="center">Text → Image</td>
   </tr>
   <tr>
     <td class="tg-0lax">CE</td>
