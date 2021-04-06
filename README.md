@@ -712,7 +712,7 @@
     <td class="tg-0lax">0.202</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><img src="http://latex.codecogs.com/gif.latex?\frac{\partial J}{\partial \theta_k^{(j)}}=\sum_{i:r(i,j)=1}{\big((\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\big)x_k^{(i)}}+\lambda \theta_k^{(j)}" />MRL (with &Lscr;<sub>c</sub> only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub>c</sub> only)</td>
     <td class="tg-0lax">0.383</td>
     <td class="tg-0lax">0.382</td>
     <td class="tg-0lax">0.383</td>
@@ -728,6 +728,3 @@
 </tbody>
 </table>
 
-```math
-a^2+b^2=c^2
-```
