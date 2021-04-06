@@ -33,7 +33,6 @@
   </tr>
 </thead>
 <tbody>
-   .yangshi1{ font-weight:bold}
   <tr>
     <td class="tg-0pky">MCCA</td>
     <td class="tg-c3ow">0.202</td>
