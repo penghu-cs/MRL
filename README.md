@@ -705,7 +705,7 @@
     <td class="tg-0lax">0.177</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with <img src="https://latex.codecogs.com/gif.latex?\mathcal{L}_{r}=\text { Onset event at time bin }" /> only)</td>
+    <td class="tg-0lax" src="https://latex.codecogs.com/gif.latex?\text{MRL with (} \mathcal{L}_{r} \text{only}"></td>
     <td class="tg-0lax">0.429</td>
     <td class="tg-0lax">0.389</td>
     <td class="tg-0lax">0.320</td>
