@@ -7,9 +7,9 @@
 # MRL
 
 ## Comparison with the State-of-the-Art
-<font size="10" face="Courier New" >
+<big>
   Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b>.
-</font>
+</big>
 <table>
 <thead>
   <h3></h3>
