@@ -688,10 +688,10 @@
   </tr>
   <tr>
     <td class="tg-0lax">Full MRL</td>
-    <td class="tg-0lax"><b>0.514<\b></td>
-    <td class="tg-0lax"><b>0.491<\b></td>
-    <td class="tg-0lax"><b>0.464<\b></td>
-    <td class="tg-0lax"><b>0.435<\b></td>
+    <td class="tg-0lax"><b>0.514</b></td>
+    <td class="tg-0lax"><b>0.491</b></td>
+    <td class="tg-0lax"><b>0.464</b></td>
+    <td class="tg-0lax"><b>0.435</b></td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -706,7 +706,7 @@
   </tr>
   <tr>
     <pre xml:lang="latex">MRL (with \mathcal{L}_{r} only)</pre>
-    <td class="tg-0lax">MRL (with  only)</td>
+    <td class="tg-0lax">MRL (with \mathcal{L}_{r} only)</td>
     <td class="tg-0lax">0.429</td>
     <td class="tg-0lax">0.389</td>
     <td class="tg-0lax">0.320</td>
@@ -721,10 +721,10 @@
   </tr>
   <tr>
     <td class="tg-0lax">Full MRL</td>
-    <td class="tg-0lax"><b>0.461<\b></td>
-    <td class="tg-0lax"><b>0.453<\b></td>
-    <td class="tg-0lax"><b>0.421<\b></td>
-    <td class="tg-0lax"><b>0.400<\b></td>
+    <td class="tg-0lax"><b>0.461</b></td>
+    <td class="tg-0lax"><b>0.453</b></td>
+    <td class="tg-0lax"><b>0.421</b></td>
+    <td class="tg-0lax"><b>0.400</b></td>
   </tr>
 </tbody>
 </table>
