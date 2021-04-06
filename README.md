@@ -10,6 +10,7 @@
 </caption>
   <p style="font-size:30px">This is a paragraph.</p>
 <thead>
+  <title>HTMLFont size</title> 
   <tr>
     <th class="tg-0pky" rowspan="3", align="center">Method</th>
     <th class="tg-c3ow" colspan="8", align="center">Wikipedia</th>
