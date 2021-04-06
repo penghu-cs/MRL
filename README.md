@@ -331,9 +331,9 @@
 <thead>
   <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the NUS-WIDE and XMediaNet datasets. The highest MAP score is shown in <b>bold</b></h3>
   <tr>
-    <th class="tg-0pky" rowspan="3", align="center">Method</th>
-    <th class="tg-c3ow" colspan="8", align="center">Wikipedia</th>
-    <th class="tg-c3ow" colspan="8", align="center">INRIA-Websearch</th>
+    <th class="tg-0pky" rowspan="3">Method</th>
+    <th class="tg-c3ow" colspan="8">NUS-WIDE</th>
+    <th class="tg-c3ow" colspan="8">XMediaNet</th>
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="4", align="center">Image → Text</td>
