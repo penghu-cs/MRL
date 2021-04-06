@@ -8,6 +8,7 @@
 <caption>
   <font size="10">Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b></font>.
 </caption>
+  <p style="font-size:30px">This is a paragraph.</p>
 <thead>
   <tr>
     <th class="tg-0pky" rowspan="3", align="center">Method</th>
