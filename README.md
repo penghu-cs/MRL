@@ -705,7 +705,8 @@
     <td class="tg-0lax">0.177</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with <pre xml:lang="latex">\mathcal{L}_{r}</pre> only)</td>
+    <pre xml:lang="latex">MRL (with \mathcal{L}_{r} only)</pre>
+    <td class="tg-0lax">MRL (with  only)</td>
     <td class="tg-0lax">0.429</td>
     <td class="tg-0lax">0.389</td>
     <td class="tg-0lax">0.320</td>
