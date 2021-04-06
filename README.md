@@ -712,7 +712,7 @@
     <td class="tg-0lax">0.202</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with &Lscr;<sub>c</sub> only)</td>
+    <td class="tg-0lax" style = "font-family:courier,arial,helvetica;">MRL (with &Lscr;<sub>c</sub> only)</td>
     <td class="tg-0lax">0.383</td>
     <td class="tg-0lax">0.382</td>
     <td class="tg-0lax">0.383</td>
