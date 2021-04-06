@@ -629,22 +629,22 @@
   </tr>
   <tr>
     <td class="tg-0pky">Ours</td>
-    <td class="tg-7btt">0.696</td>
-    <td class="tg-7btt">0.690</td>
-    <td class="tg-7btt">0.686</td>
-    <td class="tg-7btt">0.669</td>
-    <td class="tg-7btt">0.697</td>
-    <td class="tg-7btt">0.695</td>
-    <td class="tg-7btt">0.688</td>
-    <td class="tg-7btt">0.673</td>
-    <td class="tg-7btt">0.625</td>
-    <td class="tg-7btt">0.581</td>
-    <td class="tg-7btt">0.384</td>
-    <td class="tg-7btt">0.334</td>
-    <td class="tg-7btt">0.623</td>
-    <td class="tg-7btt">0.587</td>
-    <td class="tg-7btt">0.408</td>
-    <td class="tg-7btt">0.359</td>
+    <td class="tg-7btt"><b>0.696</b></td>
+    <td class="tg-7btt"><b>0.690</b></td>
+    <td class="tg-7btt"><b>0.686</b></td>
+    <td class="tg-7btt"><b>0.669</b></td>
+    <td class="tg-7btt"><b>0.697</b></td>
+    <td class="tg-7btt"><b>0.695</b></td>
+    <td class="tg-7btt"><b>0.688</b></td>
+    <td class="tg-7btt"><b>0.673</b></td>
+    <td class="tg-7btt"><b>0.625</b></td>
+    <td class="tg-7btt"><b>0.581</b></td>
+    <td class="tg-7btt"><b>0.384</b></td>
+    <td class="tg-7btt"><b>0.334</b></td>
+    <td class="tg-7btt"><b>0.623</b></td>
+    <td class="tg-7btt"><b><b>0.587</b></td>
+    <td class="tg-7btt"><b>0.408</b></td>
+    <td class="tg-7btt"><b>0.359</b></td>
   </tr>
 </tbody>
 </table>
