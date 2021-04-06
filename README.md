@@ -14,7 +14,7 @@
     <td class="tg-c3ow" colspan="4", align="center">Text → Image</td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><b>0.2</b></td>
+    <td class="tg-c3ow">0.2</td>
     <td class="tg-c3ow">0.4</td>
     <td class="tg-c3ow">0.6</td>
     <td class="tg-c3ow">0.8</td>
@@ -301,22 +301,22 @@
   </tr>
   <tr>
     <b><td class="tg-0pky">Ours</td></b>
-    <td class="tg-c3ow">0.514</td>
-    <td class="tg-7btt">0.491</td>
-    <td class="tg-7btt">0.464</td>
-    <td class="tg-7btt">0.435</td>
-    <td class="tg-7btt">0.461</td>
-    <td class="tg-7btt">0.453</td>
-    <td class="tg-7btt">0.421</td>
-    <td class="tg-7btt">0.400</td>
-    <td class="tg-7btt">0.559</td>
-    <td class="tg-7btt">0.543</td>
-    <td class="tg-7btt">0.512</td>
-    <td class="tg-7btt">0.417</td>
-    <td class="tg-7btt">0.587</td>
-    <td class="tg-7btt">0.571</td>
-    <td class="tg-7btt">0.533</td>
-    <td class="tg-7btt">0.424</td>
+    <td class="tg-c3ow"><b>0.514</b></td>
+    <td class="tg-7btt"><b>0.491</b></td>
+    <td class="tg-7btt"><b>0.464</b></td>
+    <td class="tg-7btt"><b>0.435</b></td>
+    <td class="tg-7btt"><b>0.461</b></td>
+    <td class="tg-7btt"><b>0.453</b></td>
+    <td class="tg-7btt"><b>0.421</b></td>
+    <td class="tg-7btt"><b>0.400</b></td>
+    <td class="tg-7btt"><b>0.559</b></td>
+    <td class="tg-7btt"><b>0.543</b></td>
+    <td class="tg-7btt"><b>0.512</b></td>
+    <td class="tg-7btt"><b>0.417</b></td>
+    <td class="tg-7btt"><b>0.587</b></td>
+    <td class="tg-7btt"><b>0.571</b></td>
+    <td class="tg-7btt"><b>0.533</b></td>
+    <td class="tg-7btt"><b>0.424</b></td>
   </tr>
 </tbody>
 </table>
