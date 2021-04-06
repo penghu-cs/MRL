@@ -6,7 +6,7 @@
 # MRL
 <table>
 <thead>
-  <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b></h3>
+  <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b>.</h3>
   <tr>
     <th class="tg-0pky" rowspan="3", align="center">Method</th>
     <th class="tg-c3ow" colspan="8", align="center">Wikipedia</th>
@@ -329,7 +329,7 @@
 
 <table>
 <thead>
-  <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the NUS-WIDE and XMediaNet datasets. The highest MAP score is shown in <b>bold</b></h3>
+  <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the NUS-WIDE and XMediaNet datasets. The highest MAP score is shown in <b>bold</b>.</h3>
   <tr>
     <th class="tg-0pky" rowspan="3">Method</th>
     <th class="tg-c3ow" colspan="8">NUS-WIDE</th>
@@ -645,6 +645,85 @@
     <td class="tg-7btt"><b><b>0.587</b></td>
     <td class="tg-7btt"><b>0.408</b></td>
     <td class="tg-7btt"><b>0.359</b></td>
+  </tr>
+</tbody>
+</table>
+
+### Ablation Study
+<table class="tg">
+<thead>
+  <h3>Comparison between our MRL (full version) and its three counterparts (CE and two variations of MRL) under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia dataset. The highest score is shown in <b>bold</b>.</h3>
+  <tr>
+    <th class="tg-0lax" rowspan="2">Method</th>
+    <th class="tg-baqh" colspan="4">Image → Text</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">0.2</td>
+    <td class="tg-0lax">0.4</td>
+    <td class="tg-0lax">0.6</td>
+    <td class="tg-0lax">0.8</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">CE</td>
+    <td class="tg-0lax">0.441</td>
+    <td class="tg-0lax">0.387</td>
+    <td class="tg-0lax">0.293</td>
+    <td class="tg-0lax">0.178</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">MRL (with $\mathcal{L}_{r}$ only)</td>
+    <td class="tg-0lax">0.482</td>
+    <td class="tg-0lax">0.434</td>
+    <td class="tg-0lax">0.363</td>
+    <td class="tg-0lax">0.239</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">MRL (with $\mathcal{L}_{c}$ only)</td>
+    <td class="tg-0lax">0.412</td>
+    <td class="tg-0lax">0.412</td>
+    <td class="tg-0lax">0.412</td>
+    <td class="tg-0lax">0.412</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Full MRL</td>
+    <td class="tg-0lax"><b>0.514<\b></td>
+    <td class="tg-0lax"><b>0.491<\b></td>
+    <td class="tg-0lax"><b>0.464<\b></td>
+    <td class="tg-0lax"><b>0.435<\b></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-baqh" colspan="4">Text → Image</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">CE</td>
+    <td class="tg-0lax">0.392</td>
+    <td class="tg-0lax">0.364</td>
+    <td class="tg-0lax">0.248</td>
+    <td class="tg-0lax">0.177</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">MRL (with <pre xml:lang="latex">\mathcal{L}_{r}</pre> only)</td>
+    <td class="tg-0lax">0.429</td>
+    <td class="tg-0lax">0.389</td>
+    <td class="tg-0lax">0.320</td>
+    <td class="tg-0lax">0.202</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">MRL (with $\mathcal{L}_{c}$ only)</td>
+    <td class="tg-0lax">0.383</td>
+    <td class="tg-0lax">0.382</td>
+    <td class="tg-0lax">0.383</td>
+    <td class="tg-0lax">0.383</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Full MRL</td>
+    <td class="tg-0lax"><b>0.461<\b></td>
+    <td class="tg-0lax"><b>0.453<\b></td>
+    <td class="tg-0lax"><b>0.421<\b></td>
+    <td class="tg-0lax"><b>0.400<\b></td>
   </tr>
 </tbody>
 </table>
