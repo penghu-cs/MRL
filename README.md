@@ -705,8 +705,7 @@
     <td class="tg-0lax">0.177</td>
   </tr>
   <tr>
-    <pre xml:lang="latex">MRL (with \mathcal{L}_{r} only)</pre>
-    <td class="tg-0lax">MRL (with \mathcal{L}_{r} only)</td>
+    <td class="tg-0lax">MRL (with <img src="https://latex.codecogs.com/gif.latex?\mathcal{L}_{r}=\text { Onset event at time bin }" /> only)</td>
     <td class="tg-0lax">0.429</td>
     <td class="tg-0lax">0.389</td>
     <td class="tg-0lax">0.320</td>
