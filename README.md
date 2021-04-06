@@ -3,15 +3,15 @@
 <table>
 <thead>
   <tr>
-    <th class="tg-0pky" rowspan="3">Method</th>
-    <th class="tg-c3ow" colspan="8">Wikipedia</th>
-    <th class="tg-c3ow" colspan="8">INRIA-Websearch</th>
+    <th class="tg-0pky" rowspan="3", align="center">Method</th>
+    <th class="tg-c3ow" colspan="8", align="center">Wikipedia</th>
+    <th class="tg-c3ow" colspan="8", align="center">INRIA-Websearch</th>
   </tr>
   <tr>
-    <td class="tg-c3ow" colspan="4">Image → Text</td>
-    <td class="tg-c3ow" colspan="4">Text → Image</td>
-    <td class="tg-c3ow" colspan="4">Image → Text</td>
-    <td class="tg-c3ow" colspan="4">Text → Image</td>
+    <td class="tg-c3ow" colspan="4", align="center">Image → Text</td>
+    <td class="tg-c3ow" colspan="4", align="center">Text → Image</td>
+    <td class="tg-c3ow" colspan="4", align="center">Image → Text</td>
+    <td class="tg-c3ow" colspan="4", align="center">Text → Image</td>
   </tr>
   <tr>
     <td class="tg-c3ow">0.2</td>
