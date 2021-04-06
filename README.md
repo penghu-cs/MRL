@@ -5,12 +5,8 @@
 
 # MRL
 <table>
-<caption>
-  <font size="10">Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b></font>.
-</caption>
-  <p style="font-size:30px">This is a paragraph.</p>
 <thead>
-  <title>HTMLFont size</title> 
+  <h1 style="color:red;font-size:40px;">Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b></h1>
   <tr>
     <th class="tg-0pky" rowspan="3", align="center">Method</th>
     <th class="tg-c3ow" colspan="8", align="center">Wikipedia</th>
