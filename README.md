@@ -1,10 +1,12 @@
-# Framework
+# 2021-CVPR-MRL
+Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin, Learning Cross-modal Retrieval with Noisy Labels, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Jun. 19-25, 2021. (PyTorch Code)
 
-![MRL](MRL_Framework.jpg)
+## Abstract
+Recently, cross-modal retrieval is emerging with the help of deep multimodal learning. However, even for unimodal data, collecting large-scale well-annotated data is expensive and time-consuming, and not to mention the additional challenges from multiple modalities. Although crowd-sourcing annotation, *e.g.*, Amazon's Mechanical Turk, can be utilized to mitigate the labeling cost, but leading to the unavoidable noise in labels for the non-expert annotating. To tackle the challenge, this paper presents a general Multimodal Robust Learning framework (MRL) for learning with multimodal noisy labels to mitigate noisy samples and correlate distinct modalities simultaneously. To be specific, we propose a Robust Clustering loss (RC) to make the deep networks focus on clean samples instead of noisy ones. Besides, a simple yet effective multimodal loss function, called Multimodal Contrastive loss (MC), is proposed to maximize the mutual information between different modalities, thus alleviating the interference of noisy samples and cross-modal discrepancy. Extensive experiments are conducted on four widely-used multimodal datasets to demonstrate the effectiveness of the proposed approach by comparing to 14 state-of-the-art methods.
+
+## Framework
 <h4>Figure 1 The pipeline of the proposed method for 𝓂 modalities, <i>e.g.</i>, images 𝒳₁ with noisy labels 𝒴₁, and texts 𝒳<sub>𝓂</sub> with noisy labels 𝒴<sub>𝓂</sub>. The modality-specific networks learn common representations for 𝓂 different modalities. The Robust Clustering loss &Lscr;<sub>𝓇</sub> is adopted to mitigate the noise in labels for learning discrimination and narrow the heterogeneous gap. The outputs of networks interact with each other to learn common representations by using instance- and pair-level contrast, <i>i.e.</i>, multimodal contrastive learning (&Lscr;<sub>𝒸</sub>), thus further mitigating noisy labels and cross-modal discrepancy. &Lscr;<sub>𝒸</sub> tries to maximally scatter inter-modal samples while compacting intra-modal points over the common unit sphere/space.</h4>
-
-
-# MRL
+![MRL](MRL_Framework.jpg)
 
 ## Comparison with the State-of-the-Art
 <table>
@@ -731,3 +733,14 @@
 </tbody>
 </table>
 
+## Citation
+If you find MRL useful in your research, please consider citing:
+```
+@inproceedings{hu2021MRL,
+  title={Learning Cross-modal Retrieval with Noisy Labels},
+  author={Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin},
+   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+   month={June},
+   year={2021}
+}
+```
