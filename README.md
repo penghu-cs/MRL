@@ -705,7 +705,8 @@
     <td class="tg-0lax">0.177</td>
   </tr>
   <tr>
-    <td class="tg-0lax" src="https://latex.codecogs.com/gif.latex?\text{MRL with (} \mathcal{L}_{r} \text{only}"></td>
+    %%<td class="tg-0lax">MRL (with $\mathcal{L}_{r}$ only)</td>
+    h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
     <td class="tg-0lax">0.429</td>
     <td class="tg-0lax">0.389</td>
     <td class="tg-0lax">0.320</td>
