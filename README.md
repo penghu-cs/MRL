@@ -1,7 +1,7 @@
 # Framework
 
 ![MRL](MRL_Framework.jpg)
-<h3>The pipeline of the proposed method for $m$ modalities, \eg, images $\mathcal{X}_{1}$ with noisy labels $\mathcal{Y}_{1}$, and texts $\mathcal{X}_{m}$ with noisy labels $\mathcal{Y}_{m}$. The modality-specific networks learn common representations for $m$ different modalities. The Robust Clustering loss $\mathcal{L}_{r}$ is adopted to mitigate the noise in labels for learning discrimination and narrow the heterogeneous gap. The outputs of networks interact with each other to learn common representations by using instance- and pair-level contrast, \ie, multimodal contrastive learning~($\mathcal{L}_{c}$), thus further mitigating noisy labels and cross-modal discrepancy. $\mathcal{L}_{c}$ tries to maximally scatter inter-modal samples while compacting intra-modal points over the common unit sphere/space.</h3>
+<h3>Figure 1 The pipeline of the proposed method for $m$ modalities, \eg, images $\mathcal{X}_{1}$ with noisy labels $\mathcal{Y}_{1}$, and texts $\mathcal{X}_{m}$ with noisy labels $\mathcal{Y}_{m}$. The modality-specific networks learn common representations for $m$ different modalities. The Robust Clustering loss $\mathcal{L}_{r}$ is adopted to mitigate the noise in labels for learning discrimination and narrow the heterogeneous gap. The outputs of networks interact with each other to learn common representations by using instance- and pair-level contrast, \ie, multimodal contrastive learning~($\mathcal{L}_{c}$), thus further mitigating noisy labels and cross-modal discrepancy. $\mathcal{L}_{c}$ tries to maximally scatter inter-modal samples while compacting intra-modal points over the common unit sphere/space.</h3>
 
 
 # MRL
@@ -676,14 +676,14 @@
     <td class="tg-0lax">0.178</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with &Lscr;<sub>r</sub> only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub><i>r</i></sub> only)</td>
     <td class="tg-0lax">0.482</td>
     <td class="tg-0lax">0.434</td>
     <td class="tg-0lax">0.363</td>
     <td class="tg-0lax">0.239</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with &Lscr;<sub>c</sub> only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub><i>c</i></sub> only)</td>
     <td class="tg-0lax">0.412</td>
     <td class="tg-0lax">0.412</td>
     <td class="tg-0lax">0.412</td>
@@ -708,14 +708,14 @@
     <td class="tg-0lax">0.177</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with &Lscr;<sub>r</sub> only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub><i>r</i></sub> only)</td>
     <td class="tg-0lax">0.429</td>
     <td class="tg-0lax">0.389</td>
     <td class="tg-0lax">0.320</td>
     <td class="tg-0lax">0.202</td>
   </tr>
   <tr>
-    <td class="tg-0lax">MRL (with &Lscr;<sub>c</sub> only)</td>
+    <td class="tg-0lax">MRL (with &Lscr;<sub><i>c</i></sub> only)</td>
     <td class="tg-0lax">0.383</td>
     <td class="tg-0lax">0.382</td>
     <td class="tg-0lax">0.383</td>
