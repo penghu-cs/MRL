@@ -14,7 +14,7 @@
     <td class="tg-c3ow" colspan="4", align="center">Text → Image</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">0.2</td>
+    <td class="tg-c3ow"><b>0.2</b></td>
     <td class="tg-c3ow">0.4</td>
     <td class="tg-c3ow">0.6</td>
     <td class="tg-c3ow">0.8</td>
