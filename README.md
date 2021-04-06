@@ -650,7 +650,7 @@
 </table>
 
 ### Ablation Study
-<table class="tg">
+<table class="tg", align="center">
 <thead>
   <h3>Comparison between our MRL (full version) and its three counterparts (CE and two variations of MRL) under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia dataset. The highest score is shown in <b>bold</b>.</h3>
   <tr>
