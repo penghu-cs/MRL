@@ -9,7 +9,7 @@
 ## Comparison with the State-of-the-Art
 <table>
 <thead>
-  <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b>.</h3>
+  <h3>Table 1: Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia and INRIA-Websearch datasets. The highest MAP score is shown in <b>bold</b>.</h3>
   <tr>
     <th class="tg-0pky" rowspan="3", align="center">Method</th>
     <th class="tg-c3ow" colspan="8", align="center">Wikipedia</th>
@@ -332,7 +332,7 @@
 
 <table>
 <thead>
-  <h3>Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the NUS-WIDE and XMediaNet datasets. The highest MAP score is shown in <b>bold</b>.</h3>
+  <h3>Table 2: Performance comparison in terms of MAP scores under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the NUS-WIDE and XMediaNet datasets. The highest MAP score is shown in <b>bold</b>.</h3>
   <tr>
     <th class="tg-0pky" rowspan="3">Method</th>
     <th class="tg-c3ow" colspan="8">NUS-WIDE</th>
@@ -655,7 +655,7 @@
 ## Ablation Study
 <table class="tg", align="center">
 <thead>
-  <h3>Comparison between our MRL (full version) and its three counterparts (CE and two variations of MRL) under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia dataset. The highest score is shown in <b>bold</b>.</h3>
+  <h3>Table 3: Comparison between our MRL (full version) and its three counterparts (CE and two variations of MRL) under the symmetric noise rates of 0.2, 0.4, 0.6 and 0.8 on the Wikipedia dataset. The highest score is shown in <b>bold</b>.</h3>
   <tr>
     <th class="tg-0lax" rowspan="2">Method</th>
     <th class="tg-baqh" colspan="4", align="center">Image → Text</th>
