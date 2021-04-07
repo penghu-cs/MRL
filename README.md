@@ -784,8 +784,8 @@ Img2Txt: 0.475	Txt2Img: 0.441
 If you find MRL useful in your research, please consider citing:
 ```
 @inproceedings{hu2021MRL,
-  title={Learning Cross-modal Retrieval with Noisy Labels},
-  author={Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin},
+   title={Learning Cross-modal Retrieval with Noisy Labels},
+   author={Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin},
    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
    month={June},
    year={2021}
