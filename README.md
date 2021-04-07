@@ -16,18 +16,37 @@ python main_noisy.py --max_epochs 30 --log_name noisylabel_mce --loss MCE  --lr 
 ```
 You can get outputs as follows:
 ```
+Epoch: 24 / 30
+ [================= 22/22 ==================>..]  Step: 12ms | Tot: 277ms | Loss: 2.365 | LR: 1.28428e-05
+ 
+Validation: Img2Txt: 0.480904	Txt2Img: 0.436563	Avg: 0.458733
+Test: Img2Txt: 0.474708	Txt2Img: 0.440001	Avg: 0.457354
+Saving..
+
+Epoch: 25 / 30
+ [================= 22/22 ==================>..]  Step: 12ms | Tot: 275ms | Loss: 2.362 | LR: 9.54915e-06
+ 
+Validation: Img2Txt: 0.48379	Txt2Img: 0.437549	Avg: 0.460669
+Test: Img2Txt: 0.475301	Txt2Img: 0.44056	Avg: 0.45793
+Saving..
+
+Epoch: 26 / 30
+ [================= 22/22 ==================>..]  Step: 12ms | Tot: 276ms | Loss: 2.361 | LR: 6.69873e-06
+ 
+Validation: Img2Txt: 0.482946	Txt2Img: 0.43729	Avg: 0.460118
+
 Epoch: 27 / 30
- [================= 22/22 ==================>]  Step: 12ms | Tot: 273ms | Loss: 2.360 | LR: 4.32273e-06
+ [================= 22/22 ==================>..]  Step: 12ms | Tot: 273ms | Loss: 2.360 | LR: 4.32273e-06
  
 Validation: Img2Txt: 0.480506	Txt2Img: 0.437512	Avg: 0.459009
 
 Epoch: 28 / 30
- [================= 22/22 ==================>]  Step: 12ms | Tot: 269ms | Loss: 2.360 | LR: 2.44717e-06
+ [================= 22/22 ==================>..]  Step: 12ms | Tot: 269ms | Loss: 2.360 | LR: 2.44717e-06
  
 Validation: Img2Txt: 0.481429	Txt2Img: 0.437096	Avg: 0.459263
 
 Epoch: 29 / 30
- [================= 22/22 ==================>]  Step: 12ms | Tot: 275ms | Loss: 2.359 | LR: 1.09262e-06
+ [================= 22/22 ==================>..]  Step: 12ms | Tot: 275ms | Loss: 2.359 | LR: 1.09262e-06
  
 Validation: Img2Txt: 0.482126	Txt2Img: 0.437257	Avg: 0.459691
 Evaluation on Last Epoch:
