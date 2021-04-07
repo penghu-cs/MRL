@@ -1,16 +1,6 @@
-seed = 123 # wiki: 123 pascal seed: 12 NUS-WIDE 123456 1000 64 wiki: 555 222
 import numpy as np
-np.random.seed(seed)
-import random as rn
-rn.seed(seed)
 import os
-os.environ['PYTHONHASHSEED'] = str(seed)
-# os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 import torch
-torch.manual_seed(seed)
-torch.cuda.manual_seed(seed)
-torch.cuda.manual_seed_all(seed)
-
 
 # import numpy as np
 # import os
