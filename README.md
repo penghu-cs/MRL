@@ -9,6 +9,30 @@ Recently, cross-modal retrieval is emerging with the help of deep multimodal lea
 
 ![MRL](paper/MRL_Framework.jpg)
 
+## Usage
+To train a model with 0.6 noise rate on Wikipedia, just run main_noisy.py:
+```bash
+python main_noisy.py --max_epochs 30 --log_name noisylabel_mce --loss MCE  --lr 0.0001 --train_batch_size 100 --beta 0.7 --noisy_ratio 0.6 --data_name wiki
+```
+You can get outputs as follows:
+```
+Epoch: 27 / 30
+ [================= 22/22 ==================>]  Step: 12ms | Tot: 273ms | Loss: 2.360 | LR: 4.32273e-06                                                                                                          
+Validation: Img2Txt: 0.480506	Txt2Img: 0.437512	Avg: 0.459009
+
+Epoch: 28 / 30
+ [================= 22/22 ==================>]  Step: 12ms | Tot: 269ms | Loss: 2.360 | LR: 2.44717e-06                                                                                                          
+Validation: Img2Txt: 0.481429	Txt2Img: 0.437096	Avg: 0.459263
+
+Epoch: 29 / 30
+ [================= 22/22 ==================>]  Step: 12ms | Tot: 275ms | Loss: 2.359 | LR: 1.09262e-06                                                                                                          
+Validation: Img2Txt: 0.482126	Txt2Img: 0.437257	Avg: 0.459691
+Evaluation on Last Epoch:
+Img2Txt: 0.475	Txt2Img: 0.440	
+Evaluation on Best Validation:
+Img2Txt: 0.475	Txt2Img: 0.441
+```
+
 ## Comparison with the State-of-the-Art
 <table>
 <thead>
