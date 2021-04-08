@@ -1,5 +1,5 @@
 # 2021-CVPR-MRL
-Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin, [Learning Cross-modal Retrieval with Noisy Labels](paper/Learning_Cross_Modal_Retrieval_with_Noisy_Labels.pdf), IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Jun. 19-25, 2021. (PyTorch Code)
+Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin, [Learning Cross-Modal Retrieval with Noisy Labels](paper/Learning_Cross_Modal_Retrieval_with_Noisy_Labels.pdf), IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Jun. 19-25, 2021. (PyTorch Code)
 
 ## Abstract
 Recently, cross-modal retrieval is emerging with the help of deep multimodal learning. However, even for unimodal data, collecting large-scale well-annotated data is expensive and time-consuming, and not to mention the additional challenges from multiple modalities. Although crowd-sourcing annotation, *e.g.*, Amazon's Mechanical Turk, can be utilized to mitigate the labeling cost, but leading to the unavoidable noise in labels for the non-expert annotating. To tackle the challenge, this paper presents a general Multimodal Robust Learning framework (MRL) for learning with multimodal noisy labels to mitigate noisy samples and correlate distinct modalities simultaneously. To be specific, we propose a Robust Clustering loss (RC) to make the deep networks focus on clean samples instead of noisy ones. Besides, a simple yet effective multimodal loss function, called Multimodal Contrastive loss (MC), is proposed to maximize the mutual information between different modalities, thus alleviating the interference of noisy samples and cross-modal discrepancy. Extensive experiments are conducted on four widely-used multimodal datasets to demonstrate the effectiveness of the proposed approach by comparing to 14 state-of-the-art methods.
@@ -784,7 +784,7 @@ Img2Txt: 0.475	Txt2Img: 0.441
 If you find MRL useful in your research, please consider citing:
 ```
 @inproceedings{hu2021MRL,
-   title={Learning Cross-modal Retrieval with Noisy Labels},
+   title={Learning Cross-Modal Retrieval with Noisy Labels},
    author={Peng Hu, Xi Peng, Hongyuan Zhu, Liangli Zhen, Jie Lin},
    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
    month={June},
