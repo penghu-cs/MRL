@@ -208,7 +208,7 @@ class cross_modal_dataset(data.Dataset):
                     for i in range(data_num):
                         if i in noise_idx:
                             if noise_mode == 'sym':
-                                noiselabel = int(random.randint(0, 9))
+                                noiselabel = int(random.randint(0, class_num))
                                 noise_label_tmp.append(noiselabel)
                             elif noise_mode == 'asym':
                                 noiselabel = self.transition[train_label[v][i]]
