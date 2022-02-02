@@ -7,7 +7,7 @@ class ImageNet(nn.Module):
     def __init__(self, input_dim, output_dim):
         """
         :param input_dim: dimension of tags
-        :param output_dim: bit number of the final representation
+        :param output_dim: dimensionality of the final representation
         """
         super(ImageNet, self).__init__()
         self.module_name = "image_model"
