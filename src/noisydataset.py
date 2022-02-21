@@ -21,47 +21,6 @@ from numpy.testing import assert_array_almost_equal
 import h5py
 logger = getLogger()
 
-def multiclass_noisify(y, P, random_state=0):
-    """ Flip classes according to transition probability matrix T.
-    It expects a number between 0 and the number of classes - 1.
-    """
-
-    assert P.shape[0] == P.shape[1]
-    assert np.max(y) < P.shape[0]
-
-    # row stochastic matrix
-    assert_array_almost_equal(P.sum(axis=1), np.ones(P.shape[1]))
-    assert (P >= 0.0).all()
-
-    m = y.shape[0]
-    new_y = y.copy()
-    flipper = np.random.RandomState(random_state)
-
-    for idx in np.arange(m):
-        i = y[idx]
-        # draw a vector with only an 1
-        flipped = flipper.multinomial(1, P[i, :], 1)[0]
-        new_y[idx] = np.where(flipped == 1)[0]
-
-    return new_y
-
-def other_class(n_classes, current_class):
-    """
-    Returns a list of class indices excluding the class indexed by class_ind
-    :param nb_classes: number of classes in the task
-    :param class_ind: the class index to be omitted
-    :return: one random class that != class_ind
-    """
-    if current_class < 0 or current_class >= n_classes:
-        error_str = "class_ind must be within the range (0, nb_classes - 1)"
-        raise ValueError(error_str)
-
-    other_class_list = list(range(n_classes))
-    other_class_list.remove(current_class)
-    other_class = np.random.choice(other_class_list)
-    return
-
-
 class cross_modal_dataset(data.Dataset):
     def __init__(self, dataset, noisy_ratio, mode, noise_mode='sym', root_dir='data/', noise_file=None, pred=False, probability=[], log=''):
         self.r = noisy_ratio # noise ratio
@@ -287,66 +246,6 @@ class cross_modal_dataset(data.Dataset):
     def __len__(self):
         return len(self.train_data[0])
 
-
-
-# class MultiCropDataset(datasets.ImageFolder):
-#     def __init__(
-#         self,
-#         data_path,
-#         size_crops,
-#         nmb_crops,
-#         min_scale_crops,
-#         max_scale_crops,
-#         size_dataset=-1,
-#         return_index=False,
-#         pil_blur=False,
-#     ):
-#         super(MultiCropDataset, self).__init__(data_path)
-#         assert len(size_crops) == len(nmb_crops)
-#         assert len(min_scale_crops) == len(nmb_crops)
-#         assert len(max_scale_crops) == len(nmb_crops)
-#         if size_dataset >= 0:
-#             self.samples = self.samples[:size_dataset]
-#         self.return_index = return_index
-#
-#         color_transform = [get_color_distortion(), RandomGaussianBlur()]
-#         if pil_blur:
-#             color_transform = [get_color_distortion(), PILRandomGaussianBlur()]
-#         mean = [0.485, 0.456, 0.406]
-#         std = [0.228, 0.224, 0.225]
-#         trans = []
-#         for i in range(len(size_crops)):
-#             randomresizedcrop = transforms.RandomResizedCrop(
-#                 size_crops[i],
-#                 scale=(min_scale_crops[i], max_scale_crops[i]),
-#             )
-#             trans.extend([transforms.Compose([
-#                 randomresizedcrop,
-#                 transforms.RandomHorizontalFlip(p=0.5),
-#                 transforms.Compose(color_transform),
-#                 transforms.ToTensor(),
-#                 transforms.Normalize(mean=mean, std=std)])
-#             ] * nmb_crops[i])
-#         self.trans = trans
-#
-#     def __getitem__(self, index):
-#         path, _ = self.samples[index]
-#         image = self.loader(path)
-#         multi_crops = list(map(lambda trans: trans(image), self.trans))
-#         if self.return_index:
-#             return index, multi_crops
-#         return multi_crops
-
-
-class RandomGaussianBlur(object):
-    def __call__(self, img):
-        do_it = np.random.rand() > 0.5
-        if not do_it:
-            return img
-        sigma = np.random.rand() * 1.9 + 0.1
-        return cv2.GaussianBlur(np.asarray(img), (23, 23), sigma)
-
-
 class PILRandomGaussianBlur(object):
     """
     Apply Gaussian Blur to the PIL image. Take the radius and probability of
@@ -378,43 +277,3 @@ def get_color_distortion(s=1.0):
     rnd_gray = transforms.RandomGrayscale(p=0.2)
     color_distort = transforms.Compose([rnd_color_jitter, rnd_gray])
     return color_distort
-
-
-def MIRFlickr25K(partition):
-    # imgs = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-iall.mat')['IAll']
-    root = '/media/nvme/home/hupeng/Data/mirflickr25k/'
-    imgs = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-fall.mat')['FAll']
-    tags = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-yall.mat')['YAll']
-    labels = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-lall.mat')['LAll']
-    train_size = 10000
-    test_size = 2000
-    if 'train' in partition.lower():
-        imgs, tags, labels = imgs[0: train_size], tags[0: train_size], labels[0: train_size]
-    elif 'test' in partition.lower():
-        imgs, tags, labels = imgs[-test_size::], tags[-test_size::], labels[-test_size::]
-    else:
-        imgs, tags, labels = imgs[0: -test_size], tags[0: -test_size], labels[0: -test_size]
-
-    return imgs, tags, labels, root
-
-def MIRFlickr25K_fea(partition):
-    # imgs = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-iall.mat')['IAll']
-    root = '../../DeepMDA/datasets/MIRFLICKR25K/'
-    # data_img = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-fall.mat')['FAll']
-    # data_txt = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-yall.mat')['YAll']
-    # labels = sio.loadmat('../datasets/MIRFLICKR25K/mirflickr25k-lall.mat')['LAll']
-
-    data_img = sio.loadmat(os.path.join(root, 'mirflickr25k-iall-vgg-rand.mat'))['XAll']
-    data_txt = sio.loadmat(os.path.join(root, 'mirflickr25k-yall-rand.mat'))['YAll']
-    labels = sio.loadmat(os.path.join(root, 'mirflickr25k-lall-rand.mat'))['LAll']
-
-    train_size = 10000
-    test_size = 2000
-    if 'train' in partition.lower():
-        data_img, data_txt, labels = data_img[0: train_size], data_txt[0: train_size], labels[0: train_size]
-    elif 'test' in partition.lower():
-        data_img, data_txt, labels = data_img[-test_size::], data_txt[-test_size::], labels[-test_size::]
-    else:
-        data_img, data_txt, labels = data_img[0: -test_size], data_txt[0: -test_size], labels[0: -test_size]
-
-    return data_img, data_txt, labels
