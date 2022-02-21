@@ -220,28 +220,6 @@ class cross_modal_dataset(data.Dataset):
             return [self.train_data[v][index] for v in range(len(self.train_data))], [self.noise_label[v][index] for v in range(len(self.train_data))], index
         else:
             return [self.train_data[v][index] for v in range(len(self.train_data))], [self.noise_label[v][index] for v in range(len(self.train_data))], [self.prob[v][index] for v in range(len(self.prob))], index
-        # if self.mode=='labeled':
-        #     img, target, prob = self.train_data[index], self.noise_label[index], self.probability[index]
-        #     img = Image.fromarray(img)
-        #     img1 = self.transform(img)
-        #     img2 = self.transform(img)
-        #     return img1, img2, target, prob
-        # elif self.mode=='unlabeled':
-        #     img = self.train_data[index]
-        #     img = Image.fromarray(img)
-        #     img1 = self.transform(img)
-        #     img2 = self.transform(img)
-        #     return img1, img2
-        # elif self.mode=='all':
-        #     img, target = self.train_data[index], self.noise_label[index]
-        #     img = Image.fromarray(img)
-        #     img = self.transform(img)
-        #     return img, target, index
-        # elif self.mode=='test':
-        #     img, target = self.test_data[index], self.test_label[index]
-        #     img = Image.fromarray(img)
-        #     img = self.transform(img)
-        #     return img, target
 
     def __len__(self):
         return len(self.train_data[0])
