@@ -12,7 +12,6 @@ import torch.backends.cudnn as cudnn
 from torch.utils.tensorboard import SummaryWriter
 cudnn.benchmark = True
 import nets as models
-from utils.preprocess import *
 from utils.bar_show import progress_bar
 from src.noisydataset import cross_modal_dataset
 import src.utils as utils
